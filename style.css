@@ -15,8 +15,20 @@ h1, h2, p{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}  
+
+.black {
     background-color: #292929;
 }
+
+.gray {
+    background-color: #E5E5E5;
+}
+.white{
+   background-color: #F2F2F2;
+   ; 
+}
+
 .logo{
     width: 128px;
     height: 68px;
@@ -40,9 +52,9 @@ h2{
   font-weight: 700px;
 }
 h1{
-    font-style: normal;
+    font-style: normal; 
     font-size: 64px;
-    font-weight: 1200px;
+    font-weight: 800px;
     color: #292929;
     margin-top: 64px;
 }
@@ -55,10 +67,11 @@ button{
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
+button:hover{
+    background-color:aquamarine;
+}
 button p{
     font-size: 32px;
     font-weight: 700;
     color: #292929;
-
-
 }
