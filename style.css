@@ -49,12 +49,12 @@ h2{
   font-size: 42px;  
   color: #292929CC;
   margin-top: 32px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 h1{
     font-style: normal; 
     font-size: 64px;
-    font-weight: 800px;
+    font-weight: 800;
     color: #292929;
     margin-top: 64px;
 }
@@ -68,7 +68,7 @@ button{
     border-radius: 8px;
 }
 button:hover{
-    background-color:aquamarine;
+    opacity: 0.9;
 }
 button p{
     font-size: 32px;
